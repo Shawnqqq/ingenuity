@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#f9f9f9;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+} 
+.container-1000{
+    width: 1000px;
+    margin: 0 auto;
+    border-left: 6px solid #e2e2e2;
+    border-right: 6px solid #e2e2e2;
+}
+.banner-section{
+    background-image: url(../image/ingenuity-banner.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 560px;
+    .banner-container{
+        position: relative;
+        width: 1000px;
+        margin: 0 auto;
+        .banner-logo{
+            display: inline-block;
+            width: 112px;
+            height: 40px;
+            margin-top: 20px;
+        }
+        .banner-footer{
+            position: absolute;
+            bottom: -502px;
+            left: -37px;
+            .banner-footer-image{
+                position: absolute;
+                top: 0px;
+                left: 34px;
+            }
+        }
+    }
+}
+.main-section{
+    border-top: 6px solid #e2e2e2;
+    position: relative;
+    text-align: center;
+    .main-image{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .main-title{
+        font-size: 30px;
+        color: #000000;
+        margin-top: 95px;
+    }
+    .main-describe{
+        margin: 30px 0 70px 0;
+        font-size: 16px;
+        color: #000000;
+        padding: 0 88px;
+        line-height: 27px;
+    }
+    .main-footer{
+        width: 978px;
+        margin-bottom: -7px;
+    }
+}
+.course-section{
+    background-color:#f7f7f7;
+    .course-title{
+        position: relative;
+        display: flex;
+        .course-title-image{
+            margin: 20px 0 0 20px;
+            height: 178px;
+        }
+        .course-title-text{
+            margin-top: 65px;
+            color: #000000;
+            font-size: 16px;
+            line-height: 27px;
+        }
+        .course-title-seek{
+            position: absolute;
+            right: 60px;
+            top: 20px;
+        }
+    }
+    .course-content{
+        display: flex;
+        flex-direction: column;
+        .course-content-title{
+            margin:40px 0 20px 0;
+            display: flex;
+            .course-title-logo{
+                margin: 0 20px 0 35px;
+            }
+            .course-title-text{
+                margin-top: 12px;
+                font-size: 22px;
+                color: #000000;
+                .course-title-font{
+                    font-size: 16px;
+                    color: #333333;
+                    line-height: 30px;
+                }
+            }
+        }
+        .course-content-list{
+            display: flex;
+            .course-content-item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-left: 27px;
+                height: 210px;
+                width: 287px;
+                border: 1px solid #e6e6e6;
+                .course-item-title{
+                    font-size: 18px;
+                    color: #000000;
+                    margin: 10px 0 7px 0;
+                }
+                .course-item-describe{
+                    font-size: 13px;
+                    color: #000000;
+                    line-height: 20px;
+                    padding: 0 10px 0 15px;
+                }
+            }
+        }
+    }
+}
+.actua-section{
+    padding-top: 72px;
+    position: relative;
+    .actua-line{
+        position: absolute;
+        top: 47px;
+        left: 26px;
+    }
+    .actua-arrow{
+        position: absolute;
+        top: 40px;
+        left: 18px;
+    }
+    .actua-footer{
+        padding: 20px 30px 24px 0;
+        text-align: right;
+        font-size: 14px;
+        color: #666666;
+        line-height: 20px;
+    }
+    .actua-footerLine{
+        position: absolute;
+        bottom: -7px;
+        width: 978px;
+    }
+}
+.message-section{
+    position: relative;
+    .message-title-image{
+        position: absolute;
+        top: 20px;
+        left: 18px;
+    }
+    .message-title{
+        text-align: center;
+        font-size: 30px;
+        color: #000000;
+        padding: 40px 0 25px 0;
+    }
+    .message-content{
+        display: flex;
+        .message-content-left{
+            display: flex;
+            flex-direction: column;
+            margin-left: 95px;
+            .message-left-text{
+                font-size: 14px;
+                color: #000000;
+                text-decoration: underline;
+                line-height: 25px;
+            }
+            .message-left-activity{
+                margin-top: 20px;
+                font-size: 12px;
+                color: #000000;
+                line-height: 20px;
+                .message-activity-font{
+                    display: inline-block;
+                    width: 290px;
+                    vertical-align: top;
+                }
+                .p2{
+                    margin-left: 60px;
+                }
+            }
+        }
+        .message-content-right{
+            display: flex;
+            .message-right-image1{
+                margin-left: 30px;
+                height: 240px;
+                p{
+                    font-size: 16px;
+                    color: #000000;
+                    text-align: center;
+                }
+            }
+            .message-right-image2{
+                margin-left: 15px;
+                height: 248px;
+            }
+        }
+    }
+    .message-input{
+        display: flex;
+        margin:50px 0px 40px 98px;
+        .message-input-text{
+            width: 648px;
+            height: 85px;
+            border: 1px solid #dbdbdb;
+            background-image: url(../image/ingenuity-message-input.png);
+            font-size: 16px;
+            color: #000000;
+            padding: 10px;
+            outline: none;
+            resize: none;
+        }
+        #message-bottom{
+            width: 150px;
+            height: 85px;
+            border: 1px solid #dbdbdb;
+            font-size: 16px;
+            color: #666666;
+            background: linear-gradient(#fafafa,#ebebeb);
+            outline: none;
+            cursor: pointer;
+        }
+    }
+    .message-board{
+        width: 988px;
+        height: 545px;
+        border-bottom: 6px solid #e2e2e2;
+        position: relative;
+        .message-item{
+            position: absolute;
+            left: 10px;
+            background: url(../image/ingenuity-message-bg-red.png);
+            width: 324px;
+            height: 167px;
+            padding: 15px;
+            font-size: 14px;
+            color: #000000;
+            word-wrap: break-word;
+            line-height: 25px;
+            .message-item-tag-remove{
+                display: none;
+                position: absolute;
+                top: -22px;
+                right: 0;
+            }
+        }
+        .message-item:hover .message-item-tag-remove{
+            display: block;
+        }
+    }
+}
+.footer-section{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    .footer-banner{
+        position: absolute;
+        top: -68px;
+        left: -37px;
+        .footer-banner-image{
+            position: absolute;
+            top: 0px;
+            left: 33px;
+        }
+    }
+    .footer-text{
+        font-size: 16px;
+        color: #000000;
+        line-height: 30px;
+        margin-top: 66px;
+    }
+    .footer-describe{
+        font-size: 12px;
+        color: #000000;
+        margin-bottom: 47px;
+    }
+}
